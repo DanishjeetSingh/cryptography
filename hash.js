@@ -1,9 +1,9 @@
-const {createHash} = require('crypto')
+const { createHash } = require("crypto");
 
 function hash(input) {
-    return createHash('sha256').update(input).digest('hex')
+  return createHash("sha256").update(input).digest("hex");
 }
 
-let password = 'nicepikbro'
+let password = "nicepikbro";
 
-console.log(hash(password))
+console.log(hash(password));
